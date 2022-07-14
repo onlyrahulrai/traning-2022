@@ -1,0 +1,58 @@
+h1{
+    color: antiquewhite;
+    font-size: 78px;
+    font-weight: 200;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    color: bisque;
+    font-size: 56px;
+    font-weight: 800;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    color: blueviolet;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+h4{
+    color: wheat;
+    font-size: 45px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+h5{
+    color: yellow;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+h6{
+    color: tomato;
+    font-size: 67px;
+    font-weight: 800;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    color: white;
+    font-size: 38px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span{
+    color: whitesmoke;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}

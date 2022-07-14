@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header > div{
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 8px 0;
+    color: white;
+}
+
+header > div:nth-child(1){
+    background: red;
+}
+header > div:nth-child(2){
+    background: blue
+}
+header > div:nth-child(3){
+    background: pink
+}
+header > div:nth-child(4){
+    background: violet
+}
+
+main{
+    height: calc(100vh - 36px);
+    text-align: center;
+    color: white;
+}
+
+
+.first,.seventh{
+    width: 75%;
+    height:25%;
+}
+
+.first{
+    background-color: aquamarine;
+    float: left;
+}
+
+.seventh{
+    background-color: cadetblue;
+    float: right;
+}
+
+.second{
+    height: 75%;
+    width: 25%;
+    background-color: yellow;
+    float: right;
+}
+
+.sixth{
+    height: 50%;
+    width: 25%;
+    background-color:aqua;
+    float: left;
+}
+
+.fourth{
+    width: 50%;
+    height: 25%;
+    background-color: burlywood;
+    float: left;
+}
+
+.third{
+    width:25%;
+    height: 50%;
+    float: right;
+    background-color: tomato;
+}
+
+.fifth{
+    width: 25%;
+    height: 25%;
+    background-color: skyblue;
+    float: right;
+}

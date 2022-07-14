@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        #basic thead tr{
+            box-shadow: 5px 8px 5px 2px #888888;
+        }
+        th , td{
+            text-align: left;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        #basic tr:nth-child(even){
+            background-color: aqua;
+        }
+
+        caption{
+            margin-bottom: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+
+
+    <!-- thead --- Table Head  -->
+    <!-- tbody --- Table Body  -->
+    <!-- tr ---- Table Row -->
+    <!-- td ---- Transmit Data -->
+    <!-- th ---- Table Header -->
+
+    <!-- Table Basic Start -->
+    <table id="basic">
+        <caption>Basic Table</caption>
+        <thead>
+            <tr>
+                <th>MON</th>
+                <th>TUE</th>
+                <th>WED</th>
+                <th>THUS</th>
+                <th>FRI</th>
+                <th>SAT</th>
+                <th>SUN</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Table Basic End -->
+
+    <hr>
+
+    <table>
+        <caption>Colspan Table </caption>
+        <thead>
+            <tr>
+                <th>#ID</th>
+                <th colspan="2">Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Rahul</td>
+                <td>Rai</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ramroop</td>
+                <td>Yadav</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <table>
+        <caption>Rowspan Table </caption>
+
+        <tr>
+            <th>Name</th>
+            <td>Rahul Rai</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>9648772088</td>
+        </tr>
+        <tr>
+            <td>
+                9450629698
+            </td>
+        </tr>
+
+        <tr>
+            <th>Address</th>
+            <td>Chandpur Harvansh</td>
+        </tr>
+
+        <tr>
+            <th>Post</th>
+            <td>Dabhasemar</td>
+        </tr>
+
+        <tr>
+            <th>District</th>
+            <td>Ayodhya</td>
+        </tr>
+
+        <tr>
+            <th>Age</th>
+            <td>20</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table>
+        <caption>Colgroup</caption>
+
+        <colgroup>
+            <col span="1" style="background-color: red;">
+            <col span="1" style="background-color: green;">
+            <col span="1" style="background-color: yellow;">
+            <col span="1" style="background-color: pink;">
+            <col span="1" style="background-color: aqua;">
+            <col span="1" style="background-color: lime;">
+            <col span="1" style="background-color: violet;">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th>MON</th>
+                <th>TUE</th>
+                <th>WED</th>
+                <th>THUS</th>
+                <th>FRI</th>
+                <th>SAT</th>
+                <th>SUN</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+</body>
+</html>
