@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 8 - Input types</title>
+  </head>
+  <body>
+    <h5>Input types</h5>
+
+    <hr />
+
+    <form
+      action=""
+      method="get"
+      id="form"
+      target="_self"
+      autocomplete="off"
+      enctype="multipart/form-data"
+      name=""
+    >
+      <div>
+        <label>First Name</label>
+        <input
+          type="text"
+          name="first_name"
+          id="first_name"
+          placeholder="Enter your first name..."
+          value="John"
+          required
+          readonly
+        />
+      </div>
+      <br />
+      <div>
+        <label for="last_name">Last Name</label>
+        <input
+          type="text"
+          value="doe"
+          name="last_name"
+          id="last_name"
+          placeholder="Enter your first name..."
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          value="john@gmail.com"
+          placeholder="Enter your email..."
+          required
+        />
+      </div>
+      <br />
+
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"  />
+      </div>
+      <br />
+
+      <div>
+        <span>Color</span><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+        <label for="vehicle1"> I have a bike</label><br />
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+        <label for="vehicle2"> I have a car</label><br />
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+        <label for="vehicle3"> I have a boat</label>
+      </div>
+      <br />
+      <div>
+        <span>Languages</span>
+        <input type="radio" name="language" id="html" value="html" />
+        <label for="html">HTML</label>
+        <input type="radio" name="language" id="css" value="css" />
+        <label for="css">CSS</label>
+        <input
+          type="radio"
+          name="language"
+          id="javascript"
+          value="javascript"
+        />
+        <label for="javascript">Javascript</label>
+
+        <br /><br />
+        <span>Subject</span>
+        <input type="radio" name="subject" id="hindi" value="hindi" />
+        <label for="hindi">Hindi</label>
+        <input type="radio" name="subject" id="english" value="english" />
+        <label for="english">English</label>
+      </div>
+      <br />
+
+      <div>
+        <input type="file" accept="image/png,image/jpeg">
+      </div><br>
+      <div>
+        <label for="number">Number</label>
+        <input type="number" name="number" id="Number">
+      </div><br>
+
+      <div>
+        <label for="range">Range</label>
+        <input type="range" name="range" id="range" min="0" max="50">
+      </div><br>
+  
+      <div>
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color" >
+      </div><br>
+      <div>
+        <input type="hidden" name="hidden" value="9" id="hidden" >
+      </div><br>
+
+      <div>
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date" >
+      </div><br>
+
+
+
+
+      <hr />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
+
+<!-- <input type="text" name="" id="">
+<input type="email" name="" id="">
+<input type="password" name="" id="">
+
+<input type="checkbox" name="" id="">
+<input type="radio" name="" id="">
+
+<input type="submit" value="">
+<input type="reset" value="">
+<input type="button">
+
+<input type="file" name="" id="">
+<input type="image" src="" alt="">
+
+<input type="number" name="" id="">
+<input type="range" name="" id="">
+<input type="search" name="" id="">
+<input type="tel" name="" id="">
+<input type="url" name="" id="">
+
+<input type="color" name="" id="">
+<input type="hidden" name="">
+
+<input type="date" name="" id="">
+<input type="month" name="" id="">
+<input type="time" name="" id="">
+<input type="datetime-local" name="" id="">
+<input type="week" name="" id=""> -->
