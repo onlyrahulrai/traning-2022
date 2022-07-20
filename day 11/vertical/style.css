@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.m-5{
+    margin: 6px;
+}
+
+#icon-bar{
+    margin:auto;
+    background-color: #555;
+    width: 100px;
+}
+
+#icon-bar a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 5s ease-in;
+}
+
+#icon-bar a:hover{
+    background-color: #000;
+}
+
+.active{
+    background-color: #04aa6d;
+    border-left: 2px solid red;
+}
+
+/* margin :-
+   margin: top right bottom left;
+   margin: top right bottom;
+   margin: (top bottom) (left right);
+   margin-left: left;
+   margin-right: right ;
+   margin-top: top;
+   margin-bottom: top;
+*/
+
+/* padding :-
+   padding: top right bottom left;
+   padding: top right bottom;
+   padding: (top bottom) (left right);
+   padding-left: left;
+   padding-right: right ;
+   padding-top: top;
+   padding-bottom: top;
+*/
