@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+.p-20{
+    padding: 20px;
+}
+
+body{
+    background-color: #f1f1f1;
+    font-family: 'Roboto Serif', serif;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+}
+
+main,aside{
+    float: left;
+}
+
+main{
+    width: 75%;
+}
+
+aside{
+    width: 25%;
+    padding-left: 20px;
+}
+
+.fakeimg{
+    width: 100%;
+    background-color: #ddd;
+}
+
+.card{
+    background-color: white;
+    margin-top: 20px;
+}
+
+.h-200{
+    height: 200px;
+}
+
+.container:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+footer{
+    background-color:#ddd;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:998px){
+    main,aside{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:768px){
+    .card{
+        background-color:yellow ;
+        color: white;
+    }
+    .card h2{
+        font-size: 12px;
+    }
+    .h-200{
+        height: 100px;
+    }
+}
+
+
