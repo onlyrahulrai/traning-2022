@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.topnav{
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a{
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+.active{
+    background-color: mediumseagreen;
+}
+
+.topnav .bar-icon{
+    display: none;
+}
+
+@media  screen and (max-width:768px) {
+    .topnav a:not(:first-child):not(:last-child){
+        display: none;
+    }
+
+    .topnav a.bar-icon{
+        display: block;
+        float: right;
+    }
+}
+
+@media screen and (max-width:768px){
+    .topnav.responsive{position: relative;}
+
+    .topnav.responsive a{
+        display:block !important;
+        float: none;
+    }
+
+    .topnav.responsive a.bar-icon{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+
+
+
+/* 
+    padding:top right bottom left;
+*/
+
+/* 
+    span
+    b
+    strong
+    i
+    em
+    sub
+    sup
+    u
+    mark
+    a
+*/
+
+/* 
+    display:-
+        block
+        inline-block
+        none
+        flex
+        grid
+*/
