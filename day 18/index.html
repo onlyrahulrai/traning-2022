@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-18 - Login Modal form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Modal Login Form</h2>
+    <button type="button" onclick="toggleModal()">Login</button>
+
+    <div class="container d-none c b" id="container">
+        <div class="modal">
+            <div class="text-center p-12">
+                <img src="assets/avatar.png" alt=" Logo " width="78" height="auto">
+                <span class="close-icon cursor-pointer" onclick="toggleModal()">&times;</span>
+            </div>
+            <div class="main p-12">
+                <div>
+                    <label for="username"><strong>Username</strong></label>
+                    <input type="text" name="username" placeholder="John Doe" class="form-control" required>
+                </div>
+
+                <div class="mt-5">
+                    <label for="password" ><b>Password</b></label>
+                    <input type="password" name="password" class="form-control" placeholder="********" required>
+                </div>
+
+                <button type="button" class="btn w-100 mt-5 bg-yellow text-white rounded-sm cursor-pointer">Login</button>
+
+                <div class="text-right mt-5">
+                    <label>
+                        <input type="checkbox" name="remember" checked>
+                        Remember me
+                    </label>
+                </div>
+            </div>
+            <div class="footer p-12 bg-gray">
+                <button class="btn bg-red text-white rounded-sm cursor-pointer" onclick="toggleModal()">Cancel</button>
+                <a href="#"> Forget Password </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const container = document.getElementById("container")
+
+        function toggleModal(){
+            if(container.className === "container d-none"){
+                container.classList.remove("d-none");
+            }else{
+                container.classList.add("d-none");
+            }
+        }
+    </script>
+</body>
+</html>
