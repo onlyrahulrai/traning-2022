@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h2>Modal Login Form</h2>
-    <button type="button" onclick="toggleModal()">Login</button>
+    <div class="h-100 d-flex justify-content-center align-items-center flex-column">
+        <h2>Modal Login Form</h2>
+        <button type="button" onclick="toggleModal()" class="btn rounded-sm bg-yellow text-white cursor-pointer">Login</button>
+    </div>
 
-    <div class="container d-none c b" id="container">
-        <div class="modal">
+    <div class="container d-none" id="container">
+        <div class="modal animate rounded-sm">
             <div class="text-center p-12">
                 <img src="assets/avatar.png" alt=" Logo " width="78" height="auto">
                 <span class="close-icon cursor-pointer" onclick="toggleModal()">&times;</span>
@@ -37,7 +39,7 @@
                     </label>
                 </div>
             </div>
-            <div class="footer p-12 bg-gray">
+            <div class="footer p-12 bg-gray rounded-sm">
                 <button class="btn bg-red text-white rounded-sm cursor-pointer" onclick="toggleModal()">Cancel</button>
                 <a href="#"> Forget Password </a>
             </div>
