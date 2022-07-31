@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-19 :) Today Task</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content text-center">
+        <h3>Today Task Overlay Modal</h3>
+        <button type="button" class="btn bg-pink rounded-sm cursor-pointer" onclick="toggleModal()">Click Me</button>
+      </div>
+    </div>
+
+    <div class="modal d-none" id="modal-container">
+      <div class="modal-content rounded-sm">
+        <span onclick="toggleModal()" class="p-12 float-right cursor-pointer font-md">&times;</span>
+        <h4 class="text-center p-100">I'm a modal</h4>
+      </div>
+    </div>
+
+    <script>
+        const container = document.getElementById('modal-container');
+
+        function toggleModal(){
+            if(container.className === "modal d-none"){
+                container.classList.remove("d-none")
+            }else{
+                container.classList.add("d-none")
+            }
+        }
+    </script>
+  </body>
+</html>
