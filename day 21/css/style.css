@@ -1,102 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
 body {
-    font-family: sans-serif;
-  }
-  
-  .bg-voilet {
-    background-color: violet;
-  }
-  
-  .bg-aqua {
-    background-color: aqua;
-  }
-  
-  .bg-lime {
-    background-color: lime;
-  }
-  
-  .bg-green {
-    background-color: mediumseagreen;
-  }
-  
-  .container {
-    width: 600px;
-    height: 600px;
-    background-color: blueviolet;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .p-25 {
-    padding: 25px;
-  }
-  
-  .row {
-    width: 100%;
-  }
-  
-  .col {
-    float: left;
-    box-sizing: border-box;
-  }
-  
-  .w-100 {
-    width: 100%;
-  }
-  
-  .h-100 {
-    height: 100%;
-  }
-  
-  .h-40 {
-    height: 40%;
-  }
-  
-  .w-40 {
-    width: 40%;
-  }
-  
-  .h-20 {
-    height: 20%;
-  }
-  
-  .w-20 {
-    width: 20%;
-  }
-  
-  .box {
-    background-color: white;
-    box-sizing: border-box;
-    border-radius: 5px;
-  }
-  
-  .disk {
-    width: 45px;
-    height: 45px;
-    background-color: red;
-    border-radius: 25px;
-  }
-  
-  .d-flex {
-    display: flex;
-  }
-  .justify-content-between {
-    justify-content: space-between;
-  }
-  
-  .flex-column {
-    flex-direction: column;
-  }
-  
-  /* .col-square {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-lime {
+  background-color: lime;
+}
+
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.container {
+  width: 550px;
+  margin: auto;
+  background-color: pink;
+  padding: 25px 25px 25px;
+  padding-bottom: 0;
+  border-radius: 60px 12px 56px 12px;
+  text-align: center;
+  height: auto;
+}
+
+.content{
+  width: 100%;
+  height: 550px;
+}
+
+.p-25 {
+  padding: 25px;
+}
+
+.footer{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: block;
+  font-family: 'Square Peg', cursive;
+}
+
+.row {
+  width: 100%;
+}
+
+.col {
+  float: left;
+  box-sizing: border-box;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.h-40 {
+  height: 40%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.h-20 {
+  height: 20%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-33 {
+  width: 32.8%;
+}
+
+.h-33 {
+  height: 32.8%;
+}
+
+.box {
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.disk {
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+}
+
+.d-flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.border {
+  border: 1px solid;
+}
+
+.squares-top > div,.squares-bottom > div {
+  background-color: white;
+  width: 100%;
+  height: 15.9%;
+  border: 1px solid;
+}
+
+.font-md{
+  font-size: 18px;
+}
+
+.squares-top.second > div:not(:nth-child(1)){
+  background-color: yellow;
+}
+
+.squares-top.third > div:nth-child(2){
+  background-color: yellow;
+}
+
+.squares-bottom.first > div:nth-child(5){
+  background-color: red;
+}
+
+.squares-bottom.second > div:not(:last-child){
+  background-color: red;
+}
+
+.vertical-squares > div {
+  background-color: white;
+  width: 15.9%;
+  height: 100%;
+  border: 1px solid;
+}
+
+.vertical-squares.left.first > div:nth-child(2){
+  background-color: blue;
+}
+
+.vertical-squares.left.second > div:not(:first-child){
+  background-color: blue;
+}
+
+
+.vertical-squares.right.second > div:not(:last-child){
+  background-color: lime;
+}
+
+.vertical-squares.right.third > div:nth-child(5){
+  background-color: lime;
+}
+
+.col-square {
+    margin-top: 2px;
     width: 0px;
     height: 0px;
     float: left;
     background: blue;
-    border-left: 80px solid rgb(235, 14, 14);
-    border-right: 80px solid rgb(235, 235, 18);
-    border-bottom: 80px solid rgb(0, 191, 255);
-    border-top: 80px solid lightgreen;
-  } */
-  
+    border-left: 54.9px solid blue;
+    border-right: 54.9px solid lime;
+    border-bottom: 52px solid rgb(235, 14, 14);
+    border-top: 56px solid yellow;
+}
+
+
+.border-top-left-radius{
+  border-top-left-radius: 36px;
+}
+.border-top-right-radius{
+  border-top-right-radius: 16px;
+}
+.border-bottom-left-radius{
+  border-bottom-left-radius: 16px;
+}
+.border-bottom-right-radius{
+  border-bottom-right-radius: 36px;
+}
+

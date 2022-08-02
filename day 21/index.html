@@ -4,77 +4,243 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Day-21 ): Ludo Layout Example </title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Day-21 ): Ludo Layout Example</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
   </head>
   <body>
     <div class="container">
-      <div class="row h-40">
-        <div class="col w-40 h-100 bg-voilet p-25">
-          <div
-            class="box d-flex flex-column justify-content-between w-100 h-100 p-25"
-          >
-            <div class="d-flex justify-content-between">
-              <div class="disk"></div>
-              <div class="disk"></div>
+      <div class="content">
+        <div class="row h-40">
+          <div class="col w-40 h-100 bg-blue p-25 border-top-left-radius">
+            <div
+              class="box d-flex flex-column justify-content-between w-100 h-100 p-25"
+            >
+              <div class="d-flex justify-content-between">
+                <div class="disk bg-blue"></div>
+                <div class="disk bg-blue"></div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <div class="disk bg-blue"></div>
+                <div class="disk bg-blue"></div>
+              </div>
             </div>
-            <div class="d-flex justify-content-between">
-              <div class="disk"></div>
-              <div class="disk"></div>
+          </div>
+          <div class="col w-20 h-100">
+            <div class="w-100 h-100 d-flex">
+              <div class="h-100 w-33 squares-top first bg-brown">
+                <div></div>
+                <div></div>
+                <div
+                  class="d-flex align-items-center justify-content-center font-md"
+                >
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="h-100 w-33 squares-top second bg-pink">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="h-100 w-33 squares-top third bg-blue">
+                <div></div>
+                <div
+                  class="d-flex align-items-center justify-content-center font-md"
+                >
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+          <div class="col w-40 h-100 bg-yellow p-25 border-top-right-radius">
+            <div class="box w-100 h-100 p-25">
+              <div class="d-flex flex-column justify-content-between h-100">
+                <div class="d-flex justify-content-between">
+                  <div class="disk bg-yellow"></div>
+                  <div class="disk bg-yellow"></div>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="disk bg-yellow"></div>
+                  <div class="disk bg-yellow"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col w-20 h-100"></div>
-        <div class="col w-40 h-100 bg-lime p-25">
-          <div class="box w-100 h-100 p-25">
-            <div class="d-flex flex-column justify-content-between h-100">
-              <div class="d-flex justify-content-between">
-                <div class="disk"></div>
-                <div class="disk"></div>
+        <div class="row h-20">
+          <div class="col w-40 h-100">
+            <div class="h-33 w-100 vertical-squares left first d-flex">
+              <div></div>
+              <div
+                class="d-flex align-items-center justify-content-center font-md"
+              >
+                <span>
+                  <i class="fa-solid fa-star"></i>
+                </span>
               </div>
-              <div class="d-flex justify-content-between">
-                <div class="disk"></div>
-                <div class="disk"></div>
+              <div></div>
+              <div></div>
+
+              <div></div>
+              <div></div>
+            </div>
+            <div class="h-33 w-100 vertical-squares left second d-flex">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="h-33 w-100 vertical-squares left third d-flex">
+              <div></div>
+              <div></div>
+              <div
+                class="d-flex justify-content-center align-items-center font-md"
+              >
+                <span>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+              </div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="col w-20 h-100 box-border-box">
+            <div class="col-square"></div>
+          </div>
+          <div class="col w-40 h-100">
+            <div class="h-33 w-100 vertical-squares right first d-flex">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div
+                class="d-flex align-items-center justify-content-center font-md"
+              >
+                <span>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+              </div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="h-33 w-100 vertical-squares right second d-flex">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="h-33 w-100 vertical-squares right third d-flex">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div
+                class="d-flex align-items-center justify-content-center font-md"
+              >
+                <span>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+              </div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+        <div class="row h-40">
+          <div class="col w-40 h-100 bg-red p-25 border-bottom-left-radius">
+            <div class="box w-100 h-100 p-25">
+              <div class="d-flex flex-column justify-content-between h-100">
+                <div class="d-flex justify-content-between">
+                  <div class="disk bg-red"></div>
+                  <div class="disk bg-red"></div>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="disk bg-red"></div>
+                  <div class="disk bg-red"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col w-20 h-100">
+            <div class="w-100 h-100 d-flex">
+              <div class="h-100 w-33 squares-bottom first">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div
+                  class="d-flex align-items-center justify-content-center font-md"
+                >
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </div>
+                <div></div>
+              </div>
+              <div class="h-100 w-33 squares-bottom second">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="h-100 w-33 squares-bottom third">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div
+                  class="d-flex align-items-center justify-content-center font-md"
+                >
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </div>
+
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+          <div class="col w-40 h-100 bg-lime p-25 border-bottom-right-radius">
+            <div class="box w-100 h-100 p-25">
+              <div class="d-flex flex-column justify-content-between h-100">
+                <div class="d-flex justify-content-between">
+                  <div class="disk bg-lime"></div>
+                  <div class="disk bg-lime"></div>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="disk bg-lime"></div>
+                  <div class="disk bg-lime"></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row h-20">
-        <div class="col w-40 h-100"></div>
-        <div class="col w-20 h-100"></div>
-        <div class="col w-40 h-100"></div>
-      </div>
-      <div class="row h-40">
-        <div class="col w-40 h-100 bg-voilet p-25">
-          <div class="box w-100 h-100 p-25">
-            <div class="d-flex flex-column justify-content-between h-100">
-              <div class="d-flex justify-content-between">
-                <div class="disk"></div>
-                <div class="disk"></div>
-              </div>
-              <div class="d-flex justify-content-between">
-                <div class="disk"></div>
-                <div class="disk"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col w-20 h-100"></div>
-        <div class="col w-40 h-100 bg-lime p-25">
-          <div class="box w-100 h-100 p-25">
-            <div class="d-flex flex-column justify-content-between h-100">
-              <div class="d-flex justify-content-between">
-                <div class="disk"></div>
-                <div class="disk"></div>
-              </div>
-              <div class="d-flex justify-content-between">
-                <div class="disk"></div>
-                <div class="disk"></div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="footer">
+        <span><strong>Developed and Designed by Rahul Rai </strong></span>
       </div>
     </div>
   </body>
