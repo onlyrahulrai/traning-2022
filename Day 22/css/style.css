@@ -1,0 +1,133 @@
+a:link{
+    color: green;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color:aqua;
+}
+
+a:active{
+    color: blue;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ol{
+    list-style-type:lower-roman;
+}
+
+div{
+    position: relative;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+
+.black-box{
+    border: 2px solid;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+}
+
+.blue-box{
+    background-color: aqua;
+    width: 200px;
+    height: 50px;
+    z-index: 2;
+    margin-left: 50px;
+}
+.green-box{
+    background-color: green;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content{
+    position: relative;
+}
+
+.overflow{
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    overflow: auto;
+    outline: 5px groove red;
+    outline-offset: 50px;
+    margin: 200px auto;
+}
+
+
+.overflow div{
+    width: 500px;
+    height: 50px;
+    background-color: bisque;
+}
+
+.visiblity{
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    display: none;
+    /* visibility: hidden; */
+}
+
+/* 
+    overflow
+        1.scroll
+        2.auto
+        3.visible
+        4.hidden
+*/
+
+/* 
+    outline-width
+    outline-color
+    outline-style
+    outline-offset
+    outline
+*/
+
+/* 
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+*/
+
+/* 
+    visiblity
+        1.visible
+        2.collapse
+        3.initial
+        4.inherit
+        5.hidden
+*/
