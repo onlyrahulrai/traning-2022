@@ -1,0 +1,46 @@
+.container {
+  width: 200px;
+  height: 100px;
+  margin: 50px auto;
+  background-color: aqua;
+  box-shadow: 5px 5px 50px aqua;
+}
+
+/* div.content:nth-child(1){
+    color: aqua;
+} */
+
+/* p:last-child{
+    color: aquamarine;
+}
+ */
+
+div.content-3 p {
+  color: blue;
+}
+
+
+div > p{
+    color: blueviolet;
+}
+
+div ~ p{
+    color: red;
+}
+
+:hover
+:first-child
+:last-child
+:lang
+::after
+::before
+:nth-child()
+:not()
+
+:focus
+
+:empty
+
+input[type=text]:focus{
+    width: 500px;
+}
